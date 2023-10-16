@@ -1,0 +1,364 @@
+{
+  "inn": {
+    "type": "destination",
+    "rarity": "common",
+    "points": 2,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['innkeeper']",
+    "includedIn": "base"
+  },
+  "postoffice": {
+    "type": "destination",
+    "rarity": "common",
+    "points": 2,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['postal pigeon']",
+    "includedIn": "base"
+  },
+  "cemetery": {
+    "type": "destination",
+    "rarity": "unique",
+    "points": 0,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['undertaker']",
+    "includedIn": "base"
+  },
+  "chapel": {
+    "type": "destination",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['shepherd']",
+    "includedIn": "base"
+  },
+  "lookout": {
+    "type": "destination",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['wanderer']",
+    "includedIn": "base"
+  },
+  "monastery": {
+    "type": "destination",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['monk']",
+    "includedIn": "base"
+  },
+  "university": {
+    "type": "destination",
+    "rarity": "unique",
+    "points": 3,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['doctor']",
+    "includedIn": "base"
+  },
+  "ruins": {
+    "type": "traveler",
+    "rarity": "common",
+    "points": 0,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['peddler']",
+    "includedIn": "base"
+  },
+  "fairgrounds": {
+    "type": "production",
+    "rarity": "unique",
+    "points": 3,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['fool']",
+    "includedIn": "base"
+  },
+  "twigbarge": {
+    "type": "production",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['bargetoad']",
+    "includedIn": "base"
+  },
+  "resinrefinery": {
+    "type": "production",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['chipsweep']",
+    "includedIn": "base"
+  },
+  "mine": {
+    "type": "production",
+    "rarity": "common",
+    "points": 2,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['minermole']",
+    "includedIn": "base"
+  },
+  "storehouse": {
+    "type": "production",
+    "rarity": "common",
+    "points": 2,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['woodcarver']",
+    "includedIn": "base"
+  },
+  "farm": {
+    "type": "production",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 8,
+    "occupySpace": true,
+    "related": "['husband']",
+    "includedIn": "base"
+  },
+  "generalstore": {
+    "type": "production",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['shopkeeper']",
+    "includedIn": "base"
+  },
+  "courthouse": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['judge']",
+    "includedIn": "base"
+  },
+  "clocktower": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 0,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['historian']",
+    "includedIn": "base"
+  },
+  "crane": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['architect']",
+    "includedIn": "base"
+  },
+  "dungeon": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 0,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['ranger']",
+    "includedIn": "base"
+  },
+  "evertree": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 5,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['']",
+    "includedIn": "base"
+  },
+  "castle": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 4,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['king']",
+    "includedIn": "base"
+  },
+  "palace": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 4,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['queen']",
+    "includedIn": "base"
+  },
+  "school": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['teacher']",
+    "includedIn": "base"
+  },
+  "theater": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 3,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['bard']",
+    "includedIn": "base"
+  },
+  "ferry": {
+    "type": "destination",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['ferryferret']",
+    "includedIn": "pearlbrook"
+  },
+  "pirateship": {
+    "type": "destination",
+    "rarity": "common",
+    "points": 0,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "['pirate']",
+    "includedIn": "pearlbrook"
+  },
+  "harbor": {
+    "type": "production",
+    "rarity": "unique",
+    "points": 3,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['shipwright']",
+    "includedIn": "pearlbrook"
+  },
+  "bridge": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "['messenger']",
+    "includedIn": "pearlbrook"
+  },
+  "airballoon": {
+    "type": "traveler",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": false,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "bank": {
+    "type": "production",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "cityhall": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "everwall": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 6,
+    "maximum": 2,
+    "occupySpace": false,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "freightcar": {
+    "type": "production",
+    "rarity": "unique",
+    "points": 3,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "greenhouse": {
+    "type": "production",
+    "rarity": "common",
+    "points": 2,
+    "maximum": 3,
+    "occupySpace": true,
+    "// Greenhouse requires 1 space if she should be added to town and town already has": "",
+    "// as many greenhouses as farms": "",
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "hotel": {
+    "type": "destination",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "library": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 3,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "locomotive": {
+    "type": "destination",
+    "rarity": "unique",
+    "points": 3,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "mainroad": {
+    "type": "traveler",
+    "rarity": "unique",
+    "points": 0,
+    "maximum": 4,
+    "occupySpace": false,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "museum": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "teahouse": {
+    "type": "production",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "tiara": {
+    "includedIn": "pearlbrook"
+  },
+  "spyglass": {
+    "includedIn": "pearlbrook"
+  },
+  "compass": {
+    "includedIn": "pearlbrook"
+  },
+  "gildedbook": {
+    "includedIn": "pearlbrook"
+  },
+  "masque": {
+    "includedIn": "pearlbrook"
+  },
+  "mirror": {
+    "includedIn": "pearlbrook"
+  },
+  "scales": {
+    "includedIn": "pearlbrook"
+  },
+  "sundial": {
+    "includedIn": "pearlbrook"
+  },
+  "hourglass": {
+    "includedIn": "pearlbrook"
+  },
+  "bell": {
+    "includedIn": "pearlbrook"
+  },
+  "keytothecity": {
+    "includedIn": "pearlbrook"
+  },
+  "seaglassamulet": {
+    "getPoints": "points_three",
+    "includedIn": "pearlbrook"
+  }
+}

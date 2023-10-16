@@ -1,0 +1,122 @@
+{
+    "meekscrossing": {
+        name: "meekscrossing",
+        points: 2,
+        getAvailability: available_spirecrest
+    },
+    "lilyponds": {
+        name: "lilyponds",
+        points: 2,
+        getAvailability: available_spirecrest
+    },
+    "thebog": {
+        name: "thebog",
+        points: 2,
+        getAvailability: available_spirecrest
+    },
+    "fortfaraway": {
+        name: "fortfaraway",
+        points: 2,
+        getAvailability: available_spirecrest
+    },
+    "meerkatcanyon": {
+        name: "meerkatcanyon",
+        points: 2,
+        getAvailability: available_spirecrest
+    },
+    "yaraspatch": {
+        name: "yaraspatch",
+        points: 2,
+        getAvailability: available_spirecrest
+    },
+    "littledell": {
+        name: "littledell",
+        points: 3,
+        getAvailability: available_spirecrest
+    },
+    "bubblingsprings": {
+        name: "bubblingsprings",
+        points: 3,
+        getAvailability: available_spirecrest
+    },
+    "cuddlerscove": {
+        name: "cuddlerscove",
+        points: 3,
+        getAvailability: available_spirecrest
+    },
+    "stompyknoll": {
+        name: "stompyknoll",
+        points: 3,
+        getAvailability: available_spirecrest
+    },
+    "kibblerillferry": {
+        name: "kibblerillferry",
+        points: 3,
+        getAvailability: available_spirecrest
+    },
+    "longlegforest": {
+        name: "longlegforest",
+        points: 3,
+        getAvailability: available_spirecrest
+    },
+    "burrowdale": {
+        name: "burrowdale",
+        points: 4,
+        getAvailability: available_spirecrest
+    },
+    "ambercaves": {
+        name: "ambercaves",
+        points: 4,
+        getAvailability: available_spirecrest
+    },
+    "newberryfields": {
+        name: "newberryfields",
+        points: 4,
+        getAvailability: available_spirecrest
+    },
+    "dugwormgully": {
+        name: "dugwormgully",
+        points: 4,
+        getAvailability: available_spirecrest
+    },
+    "twinbridges": {
+        name: "twinbridges",
+        points: 4,
+        getAvailability: available_spirecrest
+    },
+    "mirrorlake": {
+        name: "mirrorlake",
+        points: 4,
+        getAvailability: available_spirecrest
+    },
+    "badgersteeth": {
+        name: "badgersteeth",
+        points: 5,
+        getAvailability: available_spirecrest
+    },
+    "shipwreckshore": {
+        name: "shipwreckshore",
+        points: 5,
+        getAvailability: available_spirecrest
+    },
+    "quokkaisland": {
+        name: "quokkaisland",
+        points: 5,
+        getAvailability: available_spirecrest
+    },
+    "brightcoatbloom": {
+        name: "brightcoatbloom",
+        points: 6,
+        getAvailability: available_spirecrest
+    },
+    "coldbloodeddesert": {
+        name: "coldbloodeddesert",
+        points: 6,
+        getAvailability: available_spirecrest
+    },
+    "mistfirefalls": {
+        name: "mistfirefalls",
+        points: 6,
+        getAvailability: available_spirecrest
+    },
+}

@@ -1,0 +1,30 @@
+{
+  "grandtour": {
+    "points": 3,
+    "getAvailability": "available_npearlbrook"
+  },
+  "harvestfestival": {
+    "points": 3,
+    "getAvailability": "available_npearlbrook"
+  },
+  "expedition": {
+    "points": 3,
+    "getAvailability": "available_npearlbrook"
+  },
+  "monument": {
+    "points": 3,
+    "getAvailability": "available_npearlbrook"
+  },
+  "flowerfestival": {
+    "points": 4,
+    "getAvailability": "(app) => available_bellfaire(app) && available_npearlbrook(app)"
+  },
+  "scenicflight": {
+    "points": 3,
+    "getAvailability": "(app) => available_newleaf(app) && available_npearlbrook(app)",
+  },
+  "bigcity": {
+    "points": 5,
+    "getAvailability": "(app) => available_newleaf(app) && available_npearlbrook(app)",
+  }
+}

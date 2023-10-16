@@ -1,0 +1,18 @@
+{
+  "flame": {
+    "points": 25,
+    "includedIn": "pearlbrook"
+  },
+  "bridge": {
+    "points": 20,
+    "includedIn": "pearlbrook"
+  },
+  "fountain": {
+    "points": 15,
+    "includedIn": "pearlbrook"
+  },
+  "gate": {
+    "points": 10,
+    "includedIn": "pearlbrook"
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "taxrelief": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_three",
+    "includedIn": "base"
+  },
+  "pathofthepilgrims": {
+    "input": true,
+    "value": 0,
+    "inputMax": 2,
+    "inputFactor": 3,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "undernewmanagement": {
+    "input": true,
+    "value": 0,
+    "inputMax": 6,
+    "inputFactor": 1,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "awellruncity": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_four",
+    "includedIn": "base"
+  },
+  "rememberingthefallen": {
+    "input": true,
+    "value": 0,
+    "inputMax": 2,
+    "inputFactor": 3,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "performerinresidence": {
+    "input": true,
+    "value": 0,
+    "inputMax": 3,
+    "inputFactor": 2,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "croakwartcure": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_six",
+    "includedIn": "base"
+  },
+  "captureoftheacornthieves": {
+    "input": true,
+    "value": 0,
+    "inputMax": 2,
+    "inputFactor": 3,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "abrilliantmarketingplan": {
+    "input": true,
+    "value": 0,
+    "inputMax": 3,
+    "inputFactor": 2,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "mnisteringtomiscreants": {
+    "input": true,
+    "value": 0,
+    "inputMax": 2,
+    "inputFactor": 3,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "graduationofscholars": {
+    "input": true,
+    "value": 0,
+    "inputMax": 3,
+    "inputFactor": 2,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "pristinechapelceiling": {
+    "input": true,
+    "value": 0,
+    "inputMax": 3,
+    "inputFactor": 2,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "theeverdellgames": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_nine",
+    "includedIn": "base"
+  },
+  "ancientscrollsdiscovered": {
+    "input": true,
+    "value": 0,
+    "inputMax": 5,
+    "inputFactor": 1,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "aneveningoffireworks": {
+    "input": true,
+    "value": 0,
+    "inputMax": 3,
+    "inputFactor": 2,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "flyingdoctorservice": {
+    "input": true,
+    "value": 0,
+    "inputMax": 3,
+    "inputFactor": 3,
+    "points": 0,
+    "includedIn": "base"
+  },
+  "bednbreakfastguild": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_five",
+    "includedIn": "bellfaire"
+  },
+  "cityholiday": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_five",
+    "includedIn": "bellfaire"
+  },
+  "architecturalrenaissance": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_five",
+    "includedIn": "bellfaire"
+  },
+  "pieeatingcontest": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_six",
+    "includedIn": "bellfaire"
+  },
+  "statuescommisioned": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_six",
+    "includedIn": "bellfaire"
+  },
+  "artnmusicfestival": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_six",
+    "includedIn": "bellfaire"
+  },
+  "gatheringoftheelders": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_five",
+    "includedIn": "bellfaire"
+  },
+  "royalwedding": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_six",
+    "includedIn": "bellfaire"
+  },
+  "kingsroadestablished": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_six",
+    "includedIn": "bellfaire"
+  },
+  "//Pearlbrook": "",
+  "romanticcruise": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_zero",
+    "includedIn": "pearlbrook"
+  },
+  "riverrace": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_four",
+    "includedIn": "pearlbrook"
+  },
+  "riversideresort": {
+    "input": "true",
+    "value": 0,
+    "inputMax": "3",
+    "inputFactor": "2",
+    "points": 0,
+    "includedIn": "pearlbrook"
+  },
+  "xmarksthespot": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_zero",
+    "includedIn": "pearlbrook"
+  },
+  "sunkentreasurediscovered": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_zero",
+    "includedIn": "pearlbrook"
+  },
+  "masqueradeinvitations": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_zero",
+    "includedIn": "pearlbrook"
+  },
+  "//Newleaf": "",
+  "cityjubilee": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_zero",
+    "getavailability": "newleaf"
+  },
+  "everwalltower": {
+    "input": false,
+    "value": 0,
+    "inputmax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_five",
+    "includedIn": "newleaf"
+  },
+  "glowlightfestival": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_three",
+    "includedIn": "newleaf"
+  },
+  "hotairballoonrace": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_four",
+    "includedIn": "newleaf"
+  },
+  "dancecontest": {
+    "input": false,
+    "value": 0,
+    "inputmax": 0,
+    "inputfactor": 0,
+    "points": 0,
+    "getPoints": "points_five",
+    "includedIn": "newleaf"
+  },
+  "magicshow": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_four",
+    "includedIn": "newleaf"
+  },
+  "royaltea": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_four",
+    "includedIn": "newleaf"
+  },
+  "stockmarketboom": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_four",
+    "includedIn": "newleaf"
+  },
+  "sunflowerparade": {
+    "input": false,
+    "value": 0,
+    "inputMax": 0,
+    "inputFactor": 0,
+    "points": 0,
+    "getPoints": "points_five",
+    "includedIn": "newleaf"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "innkeeper": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "postalpigeon": {
+    "type": "traveler",
+    "rarity": "common",
+    "points": 0,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "undertaker": {
+    "type": "traveler",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "shepherd": {
+    "type": "traveler",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "wanderer": {
+    "type": "traveler",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": false,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "monk": {
+    "type": "production",
+    "rarity": "unique",
+    "points": 0,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "doctor": {
+    "type": "production",
+    "rarity": "unique",
+    "points": 4,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "peddler": {
+    "type": "production",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "fool": {
+    "type": "traveler",
+    "rarity": "unique",
+    "points": -2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "bargetoad": {
+    "type": "production",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "chipsweep": {
+    "type": "production",
+    "rarity": "common",
+    "points": 2,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "minermole": {
+    "type": "production",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "woodcarver": {
+    "type": "production",
+    "rarity": "common",
+    "points": 2,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "husband": {
+    "type": "production",
+    "rarity": "common",
+    "points": 2,
+    "maximum": 4,
+    "related": "['wife']",
+    "includedIn": "base"
+  },
+  "wife": {
+    "type": "prosperity",
+    "rarity": "common",
+    "points": 2,
+    "maximum": 4,
+    "occupySpace": true,
+    "// Wife requires 1 space if she should be added to town and town already has": "",
+    "// as many wifes as husbands": "",
+    "related": "['husband']",
+    "includedIn": "base"
+  },
+  "shopkeeper": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "judge": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "historian": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "architect": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "ranger": {
+    "type": "traveler",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "king": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 4,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "queen": {
+    "type": "destination",
+    "rarity": "unique",
+    "points": 4,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "teacher": {
+    "type": "production",
+    "rarity": "common",
+    "points": 2,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "bard": {
+    "type": "traveler",
+    "rarity": "unique",
+    "points": 0,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "base"
+  },
+  "ferryferret": {
+    "type": "production",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "pearlbrook"
+  },
+  "pirate": {
+    "type": "traveler",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": false,
+    "related": "[]",
+    "includedIn": "pearlbrook"
+  },
+  "shipwright": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "pearlbrook"
+  },
+  "messenger": {
+    "type": "traveler",
+    "rarity": "common",
+    "points": 0,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "pearlbrook"
+  },
+  "baker": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "chipsmith": {
+    "type": "destination",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "conductor": {
+    "type": "destination",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "diplomat": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "gardener": {
+    "type": "traveler",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "inventor": {
+    "type": "governance",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "lamplighter": {
+    "type": "production",
+    "rarity": "common",
+    "points": 1,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "magician": {
+    "type": "production",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "mayor": {
+    "type": "production",
+    "rarity": "unique",
+    "points": 1,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "miller": {
+    "type": "production",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "photographer": {
+    "type": "prosperity",
+    "rarity": "unique",
+    "points": 2,
+    "maximum": 2,
+    "related": "[]",
+    "includedIn": "newleaf"
+  },
+  "poet": {
+    "type": "traveler",
+    "rarity": "common",
+    "points": 0,
+    "maximum": 3,
+    "occupySpace": true,
+    "related": "[]",
+    "includedIn": "newleaf"
+  }
+}

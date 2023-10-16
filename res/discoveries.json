@@ -1,0 +1,68 @@
+{
+  "greensprouttrail": {
+    "type": "DISCOVERYTYPES.foothills",
+    "getAvailability": "available_spirecrest"
+  },
+  "mistrisetrail": {
+    "type": "DISCOVERYTYPES.foothills",
+    "getAvailability": "available_spirecrest"
+  },
+  "everblossomtrail": {
+    "type": "DISCOVERYTYPES.foothills",
+    "getAvailability": "available_spirecrest"
+  },
+  "sunblazetrail": {
+    "type": "DISCOVERYTYPES.foothills",
+    "getAvailability": "available_spirecrest"
+  },
+  "starfalltrail": {
+    "type": "DISCOVERYTYPES.foothills",
+    "getAvailability": "available_spirecrest"
+  },
+  "bellsongtrail": {
+    "type": "DISCOVERYTYPES.peaks",
+    "getAvailability": "available_spirecrest"
+  },
+  "bellsongcity": {
+    "// fix 3 point + number of fewest card type in city": "",
+    "type": "DISCOVERYTYPES.ridge",
+    "getAvailability": "available_spirecrest"
+  },
+  "greensproutcity": {
+    "type": "DISCOVERYTYPES.ridge",
+    "getAvailability": "available_spirecrest"
+  },
+  "everblossomcity": {
+    "type": "DISCOVERYTYPES.ridge",
+    "getAvailability": "available_spirecrest"
+  },
+  "mistrisecity": {
+    "type": "DISCOVERYTYPES.ridge",
+    "getAvailability": "available_spirecrest"
+  },
+  "sunblazecity": {
+    "type": "DISCOVERYTYPES.ridge",
+    "getAvailability": "available_spirecrest"
+  },
+  "starfallcity": {
+    "type": "DISCOVERYTYPES.ridge",
+    "getAvailability": "available_spirecrest"
+  },
+  "hopewatchtrail": {
+    "type": "DISCOVERYTYPES.ridge",
+    "getAvailability": "available_spirecrest"
+  },
+  "gatherwindtrail": {
+    "type": "DISCOVERYTYPES.ridge",
+    "getAvailability": "available_spirecrest"
+  },
+  "serpentspass": {
+    "getPoints": "points_seven",
+    "type": "DISCOVERYTYPES.ridge",
+    "getAvailability": "available_spirecrest"
+  },
+  "distantshore": {
+    "type": "DISCOVERYTYPES.ridge",
+    "getAvailability": "available_spirecrest"
+  }
+}

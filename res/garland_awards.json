@@ -1,0 +1,44 @@
+{
+  "storytelling": {
+    "rankingFunction": "(player) => player.findCountType(TYPES.traveler)",
+    "pointsFirst": "6",
+    "pointsSecond": "3",
+    "getAvailability": "available_bellfaire"
+  },
+  "tourism": {
+    "rankingFunction": "(player) => player.findCountType(TYPES.destination)",
+    "pointsFirst": "6",
+    "pointsSecond": "3",
+    "getAvailability": "available_bellfaire"
+  },
+  "beauty": {
+    "rankingFunction": "(player) => player.findCountType(TYPES.prosperity)",
+    "pointsFirst": "6",
+    "pointsSecond": "3",
+    "getAvailability": "available_bellfaire"
+  },
+  "peace": {
+    "rankingFunction": "(player) => player.findCountType(TYPES.governance)",
+    "pointsFirst": "6",
+    "pointsSecond": "3",
+    "getAvailability": "available_bellfaire"
+  },
+  "agriculture": {
+    "rankingFunction": "(player) => player.findCountType(TYPES.production)",
+    "pointsFirst": "6",
+    "pointsSecond": "3",
+    "getAvailability": "available_bellfaire"
+  },
+  "architecture": {
+    "rankingFunction": "(player) => player.findCountKind(KINDS.building)",
+    "pointsFirst": "6",
+    "pointsSecond": "3",
+    "getAvailability": "available_bellfaire"
+  },
+  "community": {
+    "rankingFunction": "(player) => player.findCountKind(KINDS.critter)",
+    "pointsFirst": "6",
+    "pointsSecond": "3",
+    "getAvailability": "available_bellfaire"
+  }
+}
