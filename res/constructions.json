@@ -5,7 +5,9 @@
     "points": 2,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['innkeeper']",
+    "related": [
+      "innkeeper"
+    ],
     "includedIn": "base"
   },
   "postoffice": {
@@ -14,7 +16,9 @@
     "points": 2,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['postal pigeon']",
+    "related": [
+      "postal pigeon"
+    ],
     "includedIn": "base"
   },
   "cemetery": {
@@ -23,7 +27,9 @@
     "points": 0,
     "maximum": 2,
     "occupySpace": true,
-    "related": "['undertaker']",
+    "related": [
+      "undertaker"
+    ],
     "includedIn": "base"
   },
   "chapel": {
@@ -32,7 +38,9 @@
     "points": 2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "['shepherd']",
+    "related": [
+      "shepherd"
+    ],
     "includedIn": "base"
   },
   "lookout": {
@@ -41,7 +49,9 @@
     "points": 2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "['wanderer']",
+    "related": [
+      "wanderer"
+    ],
     "includedIn": "base"
   },
   "monastery": {
@@ -50,7 +60,9 @@
     "points": 1,
     "maximum": 2,
     "occupySpace": true,
-    "related": "['monk']",
+    "related": [
+      "monk"
+    ],
     "includedIn": "base"
   },
   "university": {
@@ -59,7 +71,9 @@
     "points": 3,
     "maximum": 2,
     "occupySpace": true,
-    "related": "['doctor']",
+    "related": [
+      "doctor"
+    ],
     "includedIn": "base"
   },
   "ruins": {
@@ -68,7 +82,9 @@
     "points": 0,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['peddler']",
+    "related": [
+      "peddler"
+    ],
     "includedIn": "base"
   },
   "fairgrounds": {
@@ -77,7 +93,9 @@
     "points": 3,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['fool']",
+    "related": [
+      "fool"
+    ],
     "includedIn": "base"
   },
   "twigbarge": {
@@ -86,7 +104,9 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['bargetoad']",
+    "related": [
+      "bargetoad"
+    ],
     "includedIn": "base"
   },
   "resinrefinery": {
@@ -95,7 +115,9 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['chipsweep']",
+    "related": [
+      "chipsweep"
+    ],
     "includedIn": "base"
   },
   "mine": {
@@ -104,7 +126,9 @@
     "points": 2,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['minermole']",
+    "related": [
+      "minermole"
+    ],
     "includedIn": "base"
   },
   "storehouse": {
@@ -113,7 +137,9 @@
     "points": 2,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['woodcarver']",
+    "related": [
+      "woodcarver"
+    ],
     "includedIn": "base"
   },
   "farm": {
@@ -122,7 +148,12 @@
     "points": 1,
     "maximum": 8,
     "occupySpace": true,
-    "related": "['husband']",
+    "shareSpaceWith": [
+      "greenhouse"
+    ],
+    "related": [
+      "husband"
+    ],
     "includedIn": "base"
   },
   "generalstore": {
@@ -131,7 +162,9 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['shopkeeper']",
+    "related": [
+      "shopkeeper"
+    ],
     "includedIn": "base"
   },
   "courthouse": {
@@ -140,7 +173,9 @@
     "points": 2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "['judge']",
+    "related": [
+      "judge"
+    ],
     "includedIn": "base"
   },
   "clocktower": {
@@ -149,7 +184,9 @@
     "points": 0,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['historian']",
+    "related": [
+      "historian"
+    ],
     "includedIn": "base"
   },
   "crane": {
@@ -158,7 +195,9 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['architect']",
+    "related": [
+      "architect"
+    ],
     "includedIn": "base"
   },
   "dungeon": {
@@ -167,52 +206,69 @@
     "points": 0,
     "maximum": 2,
     "occupySpace": true,
-    "related": "['ranger']",
+    "related": [
+      "ranger"
+    ],
     "includedIn": "base"
   },
   "evertree": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 5,
+    "bonusPoints": "count(belong=self and type=propserity)",
     "maximum": 2,
     "occupySpace": true,
-    "related": "['']",
+    "related": [
+      ""
+    ],
     "includedIn": "base"
   },
   "castle": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 4,
+    "bonusPoints": "count(belong=self and rarity=common and kind=building)",
     "maximum": 2,
     "occupySpace": true,
-    "related": "['king']",
+    "related": [
+      "king"
+    ],
     "includedIn": "base"
   },
   "palace": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 4,
+    "bonusPoints": "count(belong=self and rarity=unique and kind=construction)",
     "maximum": 2,
     "occupySpace": true,
-    "related": "['queen']",
+    "related": [
+      "queen"
+    ],
     "includedIn": "base"
   },
   "school": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 2,
+    "bonusPoints": "count(belong=self and rarity=common and kind=critter)",
     "maximum": 2,
     "occupySpace": true,
-    "related": "['teacher']",
+    "related": [
+      "teacher"
+    ],
     "includedIn": "base"
   },
   "theater": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 3,
+    "bonusPoints": "count(belong=own and rarity=unique and kind=critter)",
     "maximum": 2,
     "occupySpace": true,
-    "related": "['bard']",
+    "related": [
+      "bard"
+    ],
     "includedIn": "base"
   },
   "ferry": {
@@ -221,7 +277,9 @@
     "points": 2,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['ferryferret']",
+    "related": [
+      "ferryferret"
+    ],
     "includedIn": "pearlbrook"
   },
   "pirateship": {
@@ -230,7 +288,9 @@
     "points": 0,
     "maximum": 3,
     "occupySpace": true,
-    "related": "['pirate']",
+    "related": [
+      "pirate"
+    ],
     "includedIn": "pearlbrook"
   },
   "harbor": {
@@ -239,7 +299,9 @@
     "points": 3,
     "maximum": 2,
     "occupySpace": true,
-    "related": "['shipwright']",
+    "related": [
+      "shipwright"
+    ],
     "includedIn": "pearlbrook"
   },
   "bridge": {
@@ -248,7 +310,9 @@
     "points": 1,
     "maximum": 2,
     "occupySpace": true,
-    "related": "['messenger']",
+    "related": [
+      "messenger"
+    ],
     "includedIn": "pearlbrook"
   },
   "airballoon": {
@@ -257,7 +321,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": false,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "bank": {
@@ -266,7 +330,7 @@
     "points": 2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "cityhall": {
@@ -275,16 +339,17 @@
     "points": 2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "everwall": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 6,
+    "bonusPoints": "floor(occupiedSpaces / 5 * 2)",
     "maximum": 2,
     "occupySpace": false,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "freightcar": {
@@ -293,7 +358,7 @@
     "points": 3,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "greenhouse": {
@@ -302,9 +367,12 @@
     "points": 2,
     "maximum": 3,
     "occupySpace": true,
+    "shareSpaceWith": [
+      "farm"
+    ],
     "// Greenhouse requires 1 space if she should be added to town and town already has": "",
     "// as many greenhouses as farms": "",
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "hotel": {
@@ -313,16 +381,17 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "library": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 3,
+    "bonusePoints": "count(belong=self and distinct(type))",
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "locomotive": {
@@ -331,7 +400,7 @@
     "points": 3,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "mainroad": {
@@ -340,7 +409,7 @@
     "points": 0,
     "maximum": 4,
     "occupySpace": false,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "museum": {
@@ -349,7 +418,7 @@
     "points": 2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "teahouse": {
@@ -358,7 +427,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   }
 }

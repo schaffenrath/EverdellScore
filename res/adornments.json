@@ -1,39 +1,50 @@
 {
   "tiara": {
+    "bonusPoints": "count(type=prosperity)",
     "includedIn": "pearlbrook"
   },
   "spyglass": {
+    "bonusPoints": "count(wonder)",
     "includedIn": "pearlbrook"
   },
   "compass": {
+    "bonusPoints": "count(type=traveler)",
     "includedIn": "pearlbrook"
   },
   "gildedbook": {
+    "bonusPoints": "count(type=governance)",
     "includedIn": "pearlbrook"
   },
   "masque": {
+    "bonusPoints": "count(trunc(points/3))",
     "includedIn": "pearlbrook"
   },
   "mirror": {
+    "bonusPoints": "count(distinct(type))",
     "includedIn": "pearlbrook"
   },
   "scales": {
+    "bonusPoints": "count(card and max=5)",
     "includedIn": "pearlbrook"
   },
   "sundial": {
+    "bonusPoints": "count(type=production/2)",
     "includedIn": "pearlbrook"
   },
   "hourglass": {
+    "bonusPoints": "count(type=destination)",
     "includedIn": "pearlbrook"
   },
   "bell": {
+    "bonusPoints": "count(type=critter/2)",
     "includedIn": "pearlbrook"
   },
   "keytothecity": {
+    "bonusPoints": "count(type=building/2)",
     "includedIn": "pearlbrook"
   },
   "seaglassamulet": {
-    "getPoints": "points_three",
+    "points": 3,
     "includedIn": "pearlbrook"
   }
 }

@@ -5,7 +5,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "postalpigeon": {
@@ -14,7 +14,7 @@
     "points": 0,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "undertaker": {
@@ -23,7 +23,7 @@
     "points": 1,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "shepherd": {
@@ -32,7 +32,7 @@
     "points": 1,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "wanderer": {
@@ -41,7 +41,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": false,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "monk": {
@@ -50,7 +50,7 @@
     "points": 0,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "doctor": {
@@ -59,7 +59,7 @@
     "points": 4,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "peddler": {
@@ -68,7 +68,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "fool": {
@@ -77,7 +77,7 @@
     "points": -2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "bargetoad": {
@@ -86,7 +86,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "chipsweep": {
@@ -95,7 +95,7 @@
     "points": 2,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "minermole": {
@@ -104,7 +104,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "woodcarver": {
@@ -113,7 +113,7 @@
     "points": 2,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "husband": {
@@ -121,6 +121,10 @@
     "rarity": "common",
     "points": 2,
     "maximum": 4,
+    "occupySpace": true,
+    "shareSpaceWith": [
+      "wife"
+    ],
     "related": "['wife']",
     "includedIn": "base"
   },
@@ -130,6 +134,9 @@
     "points": 2,
     "maximum": 4,
     "occupySpace": true,
+    "shareSpaceWith": [
+      "husband"
+    ],
     "// Wife requires 1 space if she should be added to town and town already has": "",
     "// as many wifes as husbands": "",
     "related": "['husband']",
@@ -141,7 +148,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "judge": {
@@ -150,7 +157,7 @@
     "points": 2,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "historian": {
@@ -159,15 +166,16 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "architect": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 2,
+    "bonusePoints": "count(resource=pebble and resource=resin and max=6)",
     "maximum": 2,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "ranger": {
@@ -176,16 +184,17 @@
     "points": 1,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "king": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 4,
+    "bonusePoints": "count(event=basic + event=special*2)",
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "queen": {
@@ -194,7 +203,7 @@
     "points": 4,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "teacher": {
@@ -203,7 +212,7 @@
     "points": 2,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "bard": {
@@ -212,7 +221,7 @@
     "points": 0,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "base"
   },
   "ferryferret": {
@@ -221,7 +230,7 @@
     "points": 1,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "pearlbrook"
   },
   "pirate": {
@@ -230,16 +239,17 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": false,
-    "related": "[]",
+    "related": [],
     "includedIn": "pearlbrook"
   },
   "shipwright": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 2,
+    "bonusePoints": "count(includedIn=pearlbrook)",
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "pearlbrook"
   },
   "messenger": {
@@ -248,16 +258,17 @@
     "points": 0,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "pearlbrook"
   },
   "baker": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 2,
+    "bonusePoints": "count(resource=berry*2 and max=6)",
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "chipsmith": {
@@ -266,7 +277,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "conductor": {
@@ -275,7 +286,7 @@
     "points": 2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "diplomat": {
@@ -284,7 +295,7 @@
     "points": 2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "gardener": {
@@ -293,7 +304,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "inventor": {
@@ -302,7 +313,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "lamplighter": {
@@ -311,7 +322,7 @@
     "points": 1,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "magician": {
@@ -320,7 +331,7 @@
     "points": 2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "mayor": {
@@ -329,7 +340,7 @@
     "points": 1,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "miller": {
@@ -338,15 +349,16 @@
     "points": 2,
     "maximum": 2,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "photographer": {
     "type": "prosperity",
     "rarity": "unique",
     "points": 2,
+    "bonusePoints": "photographedCard",
     "maximum": 2,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   },
   "poet": {
@@ -355,7 +367,7 @@
     "points": 0,
     "maximum": 3,
     "occupySpace": true,
-    "related": "[]",
+    "related": [],
     "includedIn": "newleaf"
   }
 }

@@ -1,44 +1,44 @@
 {
   "storytelling": {
-    "rankingFunction": "(player) => player.findCountType(TYPES.traveler)",
+    "bonusPoints": "count(type=traveler)",
     "pointsFirst": "6",
     "pointsSecond": "3",
-    "getAvailability": "available_bellfaire"
+    "includedIn": "bellfaire"
   },
   "tourism": {
-    "rankingFunction": "(player) => player.findCountType(TYPES.destination)",
+    "bonusPoints": "count(type=destination)",
     "pointsFirst": "6",
     "pointsSecond": "3",
-    "getAvailability": "available_bellfaire"
+    "includedIn": "bellfaire"
   },
   "beauty": {
-    "rankingFunction": "(player) => player.findCountType(TYPES.prosperity)",
+    "bonusPoints": "count(type=prosperity)",
     "pointsFirst": "6",
     "pointsSecond": "3",
-    "getAvailability": "available_bellfaire"
+    "includedIn": "bellfaire"
   },
   "peace": {
-    "rankingFunction": "(player) => player.findCountType(TYPES.governance)",
+    "bonusPoints": "count(type=governance)",
     "pointsFirst": "6",
     "pointsSecond": "3",
-    "getAvailability": "available_bellfaire"
+    "includedIn": "bellfaire"
   },
   "agriculture": {
-    "rankingFunction": "(player) => player.findCountType(TYPES.production)",
+    "bonusPoints": "count(type=production)",
     "pointsFirst": "6",
     "pointsSecond": "3",
-    "getAvailability": "available_bellfaire"
+    "includedIn": "bellfaire"
   },
   "architecture": {
-    "rankingFunction": "(player) => player.findCountKind(KINDS.building)",
+    "bonusPoints": "count(kind=building)",
     "pointsFirst": "6",
     "pointsSecond": "3",
-    "getAvailability": "available_bellfaire"
+    "includedIn": "bellfaire"
   },
   "community": {
-    "rankingFunction": "(player) => player.findCountKind(KINDS.critter)",
+    "bonusPoints": "count(kind=critter)",
     "pointsFirst": "6",
     "pointsSecond": "3",
-    "getAvailability": "available_bellfaire"
+    "includedIn": "bellfaire"
   }
 }

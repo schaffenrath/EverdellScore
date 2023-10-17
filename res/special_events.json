@@ -4,8 +4,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_three",
+    "points": 3,
     "includedIn": "base"
   },
   "pathofthepilgrims": {
@@ -14,6 +13,7 @@
     "inputMax": 2,
     "inputFactor": 3,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "undernewmanagement": {
@@ -22,6 +22,7 @@
     "inputMax": 6,
     "inputFactor": 1,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "awellruncity": {
@@ -29,8 +30,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_four",
+    "points": 4,
     "includedIn": "base"
   },
   "rememberingthefallen": {
@@ -39,6 +39,7 @@
     "inputMax": 2,
     "inputFactor": 3,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "performerinresidence": {
@@ -47,6 +48,7 @@
     "inputMax": 3,
     "inputFactor": 2,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "croakwartcure": {
@@ -54,8 +56,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_six",
+    "points": 6,
     "includedIn": "base"
   },
   "captureoftheacornthieves": {
@@ -64,6 +65,7 @@
     "inputMax": 2,
     "inputFactor": 3,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "abrilliantmarketingplan": {
@@ -72,6 +74,7 @@
     "inputMax": 3,
     "inputFactor": 2,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "mnisteringtomiscreants": {
@@ -80,6 +83,7 @@
     "inputMax": 2,
     "inputFactor": 3,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "graduationofscholars": {
@@ -88,6 +92,7 @@
     "inputMax": 3,
     "inputFactor": 2,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "pristinechapelceiling": {
@@ -96,6 +101,7 @@
     "inputMax": 3,
     "inputFactor": 2,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "theeverdellgames": {
@@ -103,8 +109,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_nine",
+    "points": 9,
     "includedIn": "base"
   },
   "ancientscrollsdiscovered": {
@@ -113,6 +118,7 @@
     "inputMax": 5,
     "inputFactor": 1,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "aneveningoffireworks": {
@@ -121,6 +127,7 @@
     "inputMax": 3,
     "inputFactor": 2,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "flyingdoctorservice": {
@@ -129,6 +136,7 @@
     "inputMax": 3,
     "inputFactor": 3,
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "base"
   },
   "bednbreakfastguild": {
@@ -136,8 +144,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_five",
+    "points": 5,
     "includedIn": "bellfaire"
   },
   "cityholiday": {
@@ -145,8 +152,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_five",
+    "points": 5,
     "includedIn": "bellfaire"
   },
   "architecturalrenaissance": {
@@ -154,8 +160,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_five",
+    "points": 5,
     "includedIn": "bellfaire"
   },
   "pieeatingcontest": {
@@ -163,8 +168,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_six",
+    "points": 6,
     "includedIn": "bellfaire"
   },
   "statuescommisioned": {
@@ -172,8 +176,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_six",
+    "points": 6,
     "includedIn": "bellfaire"
   },
   "artnmusicfestival": {
@@ -181,8 +184,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_six",
+    "points": 6,
     "includedIn": "bellfaire"
   },
   "gatheringoftheelders": {
@@ -190,8 +192,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_five",
+    "points": 5,
     "includedIn": "bellfaire"
   },
   "royalwedding": {
@@ -199,8 +200,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_six",
+    "points": 6,
     "includedIn": "bellfaire"
   },
   "kingsroadestablished": {
@@ -208,8 +208,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_six",
+    "points": 6,
     "includedIn": "bellfaire"
   },
   "//Pearlbrook": "",
@@ -227,8 +226,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_four",
+    "points": 4,
     "includedIn": "pearlbrook"
   },
   "riversideresort": {
@@ -237,6 +235,7 @@
     "inputMax": "3",
     "inputFactor": "2",
     "points": 0,
+    "bonusePoints": "value*inputFactor",
     "includedIn": "pearlbrook"
   },
   "xmarksthespot": {
@@ -281,8 +280,7 @@
     "value": 0,
     "inputmax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_five",
+    "points": 5,
     "includedIn": "newleaf"
   },
   "glowlightfestival": {
@@ -290,8 +288,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_three",
+    "points": 3,
     "includedIn": "newleaf"
   },
   "hotairballoonrace": {
@@ -299,8 +296,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_four",
+    "points": 4,
     "includedIn": "newleaf"
   },
   "dancecontest": {
@@ -308,8 +304,7 @@
     "value": 0,
     "inputmax": 0,
     "inputfactor": 0,
-    "points": 0,
-    "getPoints": "points_five",
+    "points": 5,
     "includedIn": "newleaf"
   },
   "magicshow": {
@@ -317,8 +312,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_four",
+    "points": 4,
     "includedIn": "newleaf"
   },
   "royaltea": {
@@ -326,8 +320,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_four",
+    "points": 4,
     "includedIn": "newleaf"
   },
   "stockmarketboom": {
@@ -335,8 +328,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
-    "getPoints": "points_four",
+    "points": 4,
     "includedIn": "newleaf"
   },
   "sunflowerparade": {
@@ -344,7 +336,7 @@
     "value": 0,
     "inputMax": 0,
     "inputFactor": 0,
-    "points": 0,
+    "points": 5,
     "getPoints": "points_five",
     "includedIn": "newleaf"
   }

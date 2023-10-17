@@ -11,8 +11,7 @@ with open(sys.argv[1], 'r') as rfile:
             out += line.replace("'", '"')
         elif line.startswith('name'):
             continue
-        elif line.startswith('}') or line.startswith(']'):
-            print('in except case with: ' + line)
+        elif line.startswith('}') or line.startswith(']') or line.startswith('{'):
             out += line
         else:
             parti = line.partition(':')

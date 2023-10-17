@@ -1,122 +1,98 @@
 {
     "meekscrossing": {
-        name: "meekscrossing",
-        points: 2,
-        getAvailability: available_spirecrest
+        "points": 2,
+        "includedIn": "spirecrest"
     },
     "lilyponds": {
-        name: "lilyponds",
-        points: 2,
-        getAvailability: available_spirecrest
+        "points": 2,
+        "includedIn": "spirecrest"
     },
     "thebog": {
-        name: "thebog",
-        points: 2,
-        getAvailability: available_spirecrest
+        "points": 2,
+        "includedIn": "spirecrest"
     },
     "fortfaraway": {
-        name: "fortfaraway",
-        points: 2,
-        getAvailability: available_spirecrest
+        "points": 2,
+        "includedIn": "spirecrest"
     },
     "meerkatcanyon": {
-        name: "meerkatcanyon",
-        points: 2,
-        getAvailability: available_spirecrest
+        "points": 2,
+        "includedIn": "spirecrest"
     },
     "yaraspatch": {
-        name: "yaraspatch",
-        points: 2,
-        getAvailability: available_spirecrest
+        "points": 2,
+        "includedIn": "spirecrest"
     },
     "littledell": {
-        name: "littledell",
-        points: 3,
-        getAvailability: available_spirecrest
+        "points": 3,
+        "includedIn": "spirecrest"
     },
     "bubblingsprings": {
-        name: "bubblingsprings",
-        points: 3,
-        getAvailability: available_spirecrest
+        "points": 3,
+        "includedIn": "spirecrest"
     },
     "cuddlerscove": {
-        name: "cuddlerscove",
-        points: 3,
-        getAvailability: available_spirecrest
+        "points": 3,
+        "includedIn": "spirecrest"
     },
     "stompyknoll": {
-        name: "stompyknoll",
-        points: 3,
-        getAvailability: available_spirecrest
+        "points": 3,
+        "includedIn": "spirecrest"
     },
     "kibblerillferry": {
-        name: "kibblerillferry",
-        points: 3,
-        getAvailability: available_spirecrest
+        "points": 3,
+        "includedIn": "spirecrest"
     },
     "longlegforest": {
-        name: "longlegforest",
-        points: 3,
-        getAvailability: available_spirecrest
+        "points": 3,
+        "includedIn": "spirecrest"
     },
     "burrowdale": {
-        name: "burrowdale",
-        points: 4,
-        getAvailability: available_spirecrest
+        "points": 4,
+        "includedIn": "spirecrest"
     },
     "ambercaves": {
-        name: "ambercaves",
-        points: 4,
-        getAvailability: available_spirecrest
+        "points": 4,
+        "includedIn": "spirecrest"
     },
     "newberryfields": {
-        name: "newberryfields",
-        points: 4,
-        getAvailability: available_spirecrest
+        "points": 4,
+        "includedIn": "spirecrest"
     },
     "dugwormgully": {
-        name: "dugwormgully",
-        points: 4,
-        getAvailability: available_spirecrest
+        "points": 4,
+        "includedIn": "spirecrest"
     },
     "twinbridges": {
-        name: "twinbridges",
-        points: 4,
-        getAvailability: available_spirecrest
+        "points": 4,
+        "includedIn": "spirecrest"
     },
     "mirrorlake": {
-        name: "mirrorlake",
-        points: 4,
-        getAvailability: available_spirecrest
+        "points": 4,
+        "includedIn": "spirecrest"
     },
     "badgersteeth": {
-        name: "badgersteeth",
-        points: 5,
-        getAvailability: available_spirecrest
+        "points": 5,
+        "includedIn": "spirecrest"
     },
     "shipwreckshore": {
-        name: "shipwreckshore",
-        points: 5,
-        getAvailability: available_spirecrest
+        "points": 5,
+        "includedIn": "spirecrest"
     },
     "quokkaisland": {
-        name: "quokkaisland",
-        points: 5,
-        getAvailability: available_spirecrest
+        "points": 5,
+        "includedIn": "spirecrest"
     },
     "brightcoatbloom": {
-        name: "brightcoatbloom",
-        points: 6,
-        getAvailability: available_spirecrest
+        "points": 6,
+        "includedIn": "spirecrest"
     },
     "coldbloodeddesert": {
-        name: "coldbloodeddesert",
-        points: 6,
-        getAvailability: available_spirecrest
+        "points": 6,
+        "includedIn": "spirecrest"
     },
     "mistfirefalls": {
-        name: "mistfirefalls",
-        points: 6,
-        getAvailability: available_spirecrest
-    },
+        "points": 6,
+        "includedIn": "spirecrest"
+    }
 }

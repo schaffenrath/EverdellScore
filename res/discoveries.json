@@ -1,68 +1,83 @@
 {
   "greensprouttrail": {
-    "type": "DISCOVERYTYPES.foothills",
-    "getAvailability": "available_spirecrest"
+    "type": "foothills",
+    "bonusPoints": "4 if count(type=production)>=4",
+    "includedIn": "spirecrest"
   },
   "mistrisetrail": {
-    "type": "DISCOVERYTYPES.foothills",
-    "getAvailability": "available_spirecrest"
+    "type": "foothills",
+    "bonusPoints": "4 if count(type=traveler)>=3",
+    "includedIn": "spirecrest"
   },
   "everblossomtrail": {
-    "type": "DISCOVERYTYPES.foothills",
-    "getAvailability": "available_spirecrest"
+    "type": "foothills",
+    "bonusPoints": "4 if count(type=prosperity)>=3",
+    "includedIn": "spirecrest"
   },
   "sunblazetrail": {
-    "type": "DISCOVERYTYPES.foothills",
-    "getAvailability": "available_spirecrest"
+    "type": "foothills",
+    "bonusPoints": "4 if count(type=destination)>=3",
+    "includedIn": "spirecrest"
   },
   "starfalltrail": {
-    "type": "DISCOVERYTYPES.foothills",
-    "getAvailability": "available_spirecrest"
+    "type": "foothills",
+    "bonusPoints": "4 if count(type=governance)>=3",
+    "includedIn": "spirecrest"
   },
   "bellsongtrail": {
-    "type": "DISCOVERYTYPES.peaks",
-    "getAvailability": "available_spirecrest"
+    "type": "peaks",
+    "bonusPoints": "4 if count(expeditions)>=3",
+    "includedIn": "spirecrest"
   },
   "bellsongcity": {
     "// fix 3 point + number of fewest card type in city": "",
-    "type": "DISCOVERYTYPES.ridge",
-    "getAvailability": "available_spirecrest"
+    "type": "ridge",
+    "bonusPoints": "3 + min(type)",
+    "includedIn": "spirecrest"
   },
   "greensproutcity": {
-    "type": "DISCOVERYTYPES.ridge",
-    "getAvailability": "available_spirecrest"
+    "type": "ridge",
+    "bonusPoints": "6 - count(type=production)/2",
+    "includedIn": "spirecrest"
   },
   "everblossomcity": {
-    "type": "DISCOVERYTYPES.ridge",
-    "getAvailability": "available_spirecrest"
+    "type": "ridge",
+    "bonusPoints": "6 - count(type=prosperity)",
+    "includedIn": "spirecrest"
   },
   "mistrisecity": {
-    "type": "DISCOVERYTYPES.ridge",
-    "getAvailability": "available_spirecrest"
+    "type": "ridge",
+    "bonusPoints": "6 - count(type=traveler)",
+    "includedIn": "spirecrest"
   },
   "sunblazecity": {
-    "type": "DISCOVERYTYPES.ridge",
-    "getAvailability": "available_spirecrest"
+    "type": "ridge",
+    "bonusPoints": "6 - count(type=destination)",
+    "includedIn": "spirecrest"
   },
   "starfallcity": {
-    "type": "DISCOVERYTYPES.ridge",
-    "getAvailability": "available_spirecrest"
+    "type": "ridge",
+    "bonusPoints": "6 - count(type=goernance)",
+    "includedIn": "spirecrest"
   },
   "hopewatchtrail": {
-    "type": "DISCOVERYTYPES.ridge",
-    "getAvailability": "available_spirecrest"
+    "type": "ridge",
+    "bonusPoints": "count(locations and max=7)",
+    "includedIn": "spirecrest"
   },
   "gatherwindtrail": {
-    "type": "DISCOVERYTYPES.ridge",
-    "getAvailability": "available_spirecrest"
+    "type": "ridge",
+    "bonusPoints": "4 if count(basicEvents) + count(specialEvents)>=2",
+    "includedIn": "spirecrest"
   },
   "serpentspass": {
-    "getPoints": "points_seven",
-    "type": "DISCOVERYTYPES.ridge",
-    "getAvailability": "available_spirecrest"
+    "points": 7,
+    "type": "ridge",
+    "includedIn": "spirecrest"
   },
   "distantshore": {
-    "type": "DISCOVERYTYPES.ridge",
-    "getAvailability": "available_spirecrest"
+    "type": "ridge",
+    "bonusPoints": "7 if count(expeditions)>=3",
+    "includedIn": "spirecrest"
   }
 }

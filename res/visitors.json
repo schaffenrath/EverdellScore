@@ -1,114 +1,130 @@
 {
     "bimlittle": {
-        getPoints: (player) => player.findCountType(TYPES.destination) >= 6 ? 7 : 0
+        "bonusPoints": "7 if count(type=destination)>=6",
+        "includedIn": "newleaf"
     },
     "bosleytedwardson": {
-        getPoints: (player) => Object.keys(TYPES).reduce((prev, val) => prev && player.findCountType(TYPES[val
-        ]) >= 2, true) ? 9 : 0
+        "bonusPoints": "9 if min(type)>=2",
+        "includedIn": "newleaf"
     },
     "butterbellsweetpaw": {
-        getPoints: (player) => player.town.length >= 15 ? 6 : 0
+        "bonusPoints": "6 if town=full",
+        "includedIn": "newleaf"
     },
     "diggsdeepwell": {
-        getPoints: (player) => player.leftResources[RESOURCES.pebble
-        ] >= 2 ? 6 : 0
+        "bonusPoints": "6 if count(resource=pebble)>=2",
+        "includedIn": "newleaf"
     },
     "cillweedquicksniff": {
-        getPoints: (player) => player.findCountKind(KINDS.building) > player.findCountKind(KINDS.critter) ? 5 : 0
+        "bonusPoints": "5 if count(kind=construction)>count(kind=critter)",
+        "includedIn": "newleaf"
     },
     "dimdustlight": {
-        getPoints: (player) => player.findCountRarity(RARITY.unique) >= 6 ? 5 : 0
+        "bonusPoints": "5 if count(rarity=unique)",
+        "includedIn": "newleaf"
     },
     "dipdibble": {
-        getPoints: (player) => player.findCountType(TYPES.destination) >= 4 ? 5 : 0
+        "bonusPoints": "5 if count(type=destination)>=4",
+        "includedIn": "newleaf"
     },
     "dunetarrington": {
-        getPoints: (player) => player.findCountType(TYPES.prosperity) >= 6 ? 6 : 0
+        "bonusPoints": "6 if count(type=prosperity)>=6",
+        "includedIn": "newleaf"
     },
     "dwellnorthwatch": {
-        getPoints: (player) => player.findCountType(TYPES.traveler) >= 4 ? 5 : 0
+        "bonusPoints": "5 if count(type=traveler)>=4",
+        "includedIn": "newleaf"
     },
     "edvardtriptail": {
-        getPoints: (player) => Object.keys(TYPES).reduce((prev, val) => prev && player.findCountType(TYPES[val
-        ]) >= 1, true) ? 5 : 0
+        "bonusPoints": "5 if min(type)>=1",
+        "includedIn": "newleaf"
     },
     "frinstickly": {
-        getPoints: (player) => player.leftResources[RESOURCES.resin
-        ] >= 4 ? 6 : 0
+        "bonusPoints": "6 if count(resource=resin)>=4",
+        "includedIn": "newleaf"
     },
     "glindilfrink": {
-        getPoints: (player) => player.findCountType(TYPES.prosperity) >= 4 ? 4 : 0
+        "bonusPoints": "4 if count(type=prosperity)",
+        "includedIn": "newleaf"
     },
     "iggysilverscale": {
-        getPoints: (player) => player.findCountType(TYPES.traveler) >= 6 ? 7 : 0
+        "bonusPoints": "7 if count(type=traveler)",
+        "includedIn": "newleaf"
     },
     "mossysteptoe": {
-        getPoints: (player) => player.findCountType(TYPES.production) >= 5 ? 5 : 0
+        "bonusPoints": "5 if count(type=production)",
+        "includedIn": "newleaf"
     },
     "orinnimblepaw": {
-      getPoints: (player) => player.journeys.length >= 2 ? 6 : 0
+        "bonusPoints": "6 if journeys>=2",
+        "includedIn": "newleaf"
     },
     "oscarlongtale": {
-        getPoints: (player) => player.findCountKind(KINDS.critter) > player.findCountKind(KINDS.building) ? 5 : 0
+        "bonusPoints": "5 if count(kind=critter)>count(kind.construction)",
+        "includedIn": "newleaf"
     },
     "phillgurgle": {
-        getPoints: (player) => player.findCountType(TYPES.production) <= 2 ? 10 : 0
+        "bonusPoints": "10 if count(type=production) <= 2",
+        "includedIn": "newleaf"
     },
     "piffquillglow": {
-        getPoints: (player) => player.leftResources[RESOURCES.twig
-        ] >= 5 ? 6 : 0
+        "bonusPoints": "6 if count(resource=twig)>=5",
+        "includedIn": "newleaf"
     },
     "plumshortclaw": {
-        getPoints: (player) => player.findCountType(TYPES.governance) >= 4 ? 5 : 0
+        "bonusPoints": "5 if count(governance)>=4",
+        "includedIn": "newleaf"
     },
     "quinncleanwhisker": {
-        getPoints: (player) => player.findCountKind(KINDS.critter) >= 6 && player.findCountKind(KINDS.building) >= 6 ? 6 : 0
+        "bonusPoints": "6 if count(kind=critter) >=6 and count(kind=construction)>=6",
+        "includedIn": "newleaf"
     },
     "reemysniggle": {
-        getPoints: (player) => player.basicEvents.length >= 3 ? 7 : 0
+        "bonusPoints": "7 if count(event=basic)>=3",
+        "includedIn": "newleaf"
     },
     "rivilablacus": {
-        getPoints: (player) => player.findCountType(TYPES.governance) >= 6 ? 7 : 0
+        "bonusPoints": "7 if count(type=governance)",
+        "includedIn": "newleaf"
     },
     "rubydew": {
-        getPoints: (player) => player.specialEvents.length >= 2 ? 8 : 0
+        "bonusPoints": "8 if count(event=special)>=2",
+        "includedIn": "newleaf"
     },
     "sarisclearwhistle": {
-        getPoints: (player) => player.findCountRarity(RARITY.common) >= 6 ? 5 : 0
+        "bonusPoints": "5 if count(rarity=common)",
+        "includedIn": "newleaf"
     },
     "sirtrivleqsmarqwill": {
-        getPoints: (player) => player.leftResources[RESOURCES.twig
-        ] >= 1 && player.leftResources[RESOURCES.resin
-        ] >= 1 && player.leftResources[RESOURCES.pebble
-        ] >= 1 && player.leftResources[RESOURCES.berry
-        ] >= 1  ? 7 : 0
+        "bonusPoints": "7 if count(resource=twig)>=1 and count(resource=resin)>=1 and count(resource=pebble)>=1 and count(resource=berry)>=1",
+        "includedIn": "newleaf"
     },
     "skidshinysnout": {
-        getPoints: (player) => player.points >= 10 ? 5 : 0
+        "bonusPoints": "5 if points>=10",
+        "includedIn": "newleaf"
     },
     "snoutpuddlehop": {
-        getPoints: (player) => player.specialEvents.length >= 1 && player.basicEvents.length >= 2 ? 8 : 0
+        "bonusPoints": "8 if count(event=special)>=1 and count(event=basic)>=2",
+        "includedIn": "newleaf"
     },
     "trisspeske": {
-        getPoints: (player) => {
-            let overview = player.getTownOverview();
-            return Object.keys(overview).reduce(
-                (prev, type) => prev || (type != TYPES.production && overview[type
-            ] >= 6),
-                false) ? 6 : 0;
-        }
+        "bonusPoints": "6 if table.count(type=traveler)>=6 and table.count(type=destination)>=6 and table.count(type=governance)>=6 and table.count(type=prosperity)>=6)",
+        "includedIn": "newleaf"
     },
     "wildellfamily": {
-        getPoints: (player) => player.findCountRarity(RARITY.common) >= 9 ? 7 : 0
+        "bonusPoints": "7 if count(rarity=common)>=9",
+        "includedIn": "newleaf"
     },
     "willowgreengrin": {
-        getPoints: (player) => player.findCountType(TYPES.production) >= 7 ? 7 : 0
+        "bonusPoints": "7 if count(type=production)>=7",
+        "includedIn": "newleaf"
     },
     "wimblewuffle": {
-        getPoints: (player) => player.leftResources[RESOURCES.berry
-        ] >= 3 ? 6 : 0
+        "bonusPoints": "6 if count(resource=berry)>=3",
+        "includedIn": "newleaf"
     },
     "yarabrunmayberry": {
-        getPoints: (player) => player.findCountRarity(RARITY.unique) >= 7 ? 7 : 0
+        "bonusPoints": "7 if count(rarity=unique)>=7",
+        "includedIn": "newleaf"
     }
 }
